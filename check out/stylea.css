@@ -1,0 +1,207 @@
+/*
+	This is Eric Meyer's Reset CSS, which he has made available for free at http://meyerweb.com/eric/tools/css/reset/index.html.
+*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-color: #111;
+}
+
+h1 {
+	width: 555px;
+	margin: 5px auto;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #fff;
+	font-size: xx-large;
+	color: #fff;
+}
+
+/*Begin Form Styles*/
+form {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+	color: #fff;
+    padding-top:140px;
+    font-size: 150%;
+	
+}
+
+fieldset {
+	margin-bottom: 10px;
+	border-bottom: 5px solid #fff;
+	background-color: #333;
+	
+}
+
+legend {
+	padding-left: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: #fff;
+}
+
+fieldset fieldset {
+	margin-top: 200px;
+	border-bottom: none;
+}
+
+fieldset fieldset legend {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+form ol {
+	padding: 20px;
+}
+
+fieldset fieldset ol {
+	margin-top: 10px;
+}
+
+form p {
+	margin: 10px;
+	font-size: .8em;
+}
+
+form li {
+	list-style-type: none;
+	border-bottom: 1px dotted #fff;
+	padding-bottom: 20px;
+	margin-bottom: 2px;
+}
+
+label {
+	width: 200px;
+	float: left;
+	font-weight: bold;
+}
+
+span.label {
+	font-weight: bold;
+}
+
+li.radioContainer label {
+	display: block;
+	float: none;
+	font-weight: normal;
+}
+
+select, input[type="text"] {
+	width: 200px;
+}
+
+textarea {
+	width: 400px;
+	height: 50px;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#buttons input {
+	height: 50px;
+	width: 150px;
+	font-size: 1.5em;
+	color: #111;
+	font-variant: small-caps;
+	margin: 10px;
+}
+/*End Form Styles*/
+fieldset fieldset {
+	margin-top: 100px;
+	border-bottom: none;
+}
+form li {
+	list-style-type: none;
+	border-bottom: 1px dotted #000;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+label {
+	width: 200px;
+	float: left;
+	font-weight: bold;
+    
+}
+li.radioContainer label {
+	display: block;
+	float: none;
+	font-weight: normal;
+}
+select, input[type="text"] {
+	width: 200px;
+}
+textarea {
+	width: 400px;
+	height: 50px;
+}
+#buttons {
+	text-align:center;
+}
+#buttons input {
+	height: 50px;
+	width: 150px;
+	font-size: 3em;
+	color: #111;
+	font-family: serif;
+	margin: 10px;
+}
+
+

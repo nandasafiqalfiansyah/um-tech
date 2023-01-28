@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Reservasi - Umpo Tech Organizer</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- vavicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico">
+
+    <link rel="stylesheet" href="stylea.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><img src="../images/2.1.png" alt=""></a>
+
+        <nav class="navbar">
+            <a href="../index.html">home</a>
+            <a href="../index.html">service</a>
+            <a href="../index.html">gallery</a>
+            <a href="../index.html">about</a>
+            <a href="../index.html">price</a>
+        </nav>
+        <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+
+    <form method="post" action="apply.php">
+        <fieldset id="orderInfo">
+            <legend>order information</legend>
+            <ol>
+                <li>
+                    <label for="Dekorasi">Dekorasi:</label>
+                    <select name="" id="" title="">
+                        <option>pilih salah satu...</option>
+                        <option>mini Rp.4.000.000</option>
+                        <option>medium Rp.8.000.000</option>
+                        <option>big Rp.12.000.000</option>
+                        <option>tidak order</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="Livestreaming">Live streaming:</label>
+                    <select name="" id="" title="">
+                        <option>pilih salah satu...</option>
+                        <option>FH Rp.3.500.000</option>
+                        <option>WFO Rp.6.250.000</option>
+                        <option>tidak order</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="Posterbaner">Poster banner:</label>
+                    <select name="" id="" title="">
+                        <option>pilih salah satu...</option>
+                        <option>Murah Rp. 25.000 / Meter</option>
+                        <option>Middel Rp. 50.000 / Meter</option>
+                        <option>Full Rp. 80.000 / Meter</option>
+                        <option>tidak order</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="videopromosi">video promosi:</label>
+                    <select name="" id="" title="">
+                        <option>pilih salah satu...</option>
+                        <option>Murah Rp. 20.000 / 30 Detik</option>
+                        <option>Middel Rp. 50.000 / 1 Menit</option>
+                        <option>+10% Lebih 1 Menit</option>
+                        <option>tidak order</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="Tagidcard">Tag id card:</label>
+                    <select name="" id="" title="">
+                        <option>pilih salah satu...</option>
+                        <option>Rp. 120.000 / Lusin</option>
+                        <option>tidak order</option>
+                    </select>
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset id="personalInfo">
+            <legend>Personal Information</legend>
+            <ol>
+                <li>
+                    <label for="FirstName">Nama depan:</label>
+                    <input type="text" size="20" name="FirstName" id="FirstName" title="First Name">
+                </li>
+                <li>
+                    <label for="LastName">Nama belakang:</label>
+                    <input type="text" size="20" name="LastName" id="LastName" title="Last Name">
+                </li>
+                <li>
+                    <label for="Address">alamat jalan:</label>
+                    <input type="text" size="20" name="Address" id="Address" title="Address">
+                </li>
+                <li>
+                    <label for="City">kota:</label>
+                    <input type="text" size="20" name="City" id="City" title="City">
+                </li>
+                <li>
+                    <label for="State">negara:</label>
+                    <input type="text" size="20" name="State" id="State" title="State">
+                </li>
+                <li>
+                    <label for="PostalCode">kode pos:</label>
+                    <input type="text" size="20" name="PostalCode" id="PostalCode" title="Postal Code">
+                </li>
+                <li>
+                    <label for="Telephone">Nomor telepon:</label>
+                    <input type="tel" size="20" name="Telephone" id="Telephone" title="Telephone">
+                </li>
+                <li>
+                    <label for="Email">alamat email:</label>
+                    <input type="email" size="20" name="Email" id="Email" title="Email Address">
+                </li>
+                <br />
+            </ol>
+        </fieldset>
+        <fieldset id="employmentHistory">
+            <legend>acara informasi</legend>
+            <p>berisi run down acara serta catatan dari setiap acara yang akan di laksanakan</p>
+            <fieldset>
+                <legend>acara 1</legend>
+                <ol>
+                    <li>
+                        <label for="CompanyName1">nama acara:</label>
+                        <input type="text" size="20" name="CompanyName1" id="CompanyName1" title="Company Name">
+                    </li>
+                    <li>
+                        <label for="JobTitle1">Job Title:</label>
+                        <input type="text" size="20" name="JobTitle1" id="JobTitle1" title="Job Title">
+                    </li>
+                    <li>
+                        <label for="StartDate1">Start acara:</label>
+                        <input type="date" size="20" name="StartDate1" id="StartDate1" title="Start Date">
+                    </li>
+                    <li>
+                        <label for="EndDate1">End acara:</label>
+                        <input type="date" size="20" name="EndDate1" id="EndDate1" title="End Date">
+                    </li>
+                    <li>
+                        <label for="Responsibilities1">Run Down Acara :</label>
+                        <textarea name=" Responsibilities1" id="Responsibilities1" title="Responsibilities" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                    <li>
+                        <label for="ReasonForLeaving1">catatan:</label>
+                        <textarea name="ReasonForLeaving1" id="ReasonForLeaving1" title="Reason for Leaving" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>acara 2</legend>
+                <ol>
+                    <li>
+                        <label for="CompanyName1">nama acara:</label>
+                        <input type="text" size="20" name="CompanyName1" id="CompanyName1" title="Company Name">
+                    </li>
+                    <li>
+                        <label for="JobTitle1">Job Title:</label>
+                        <input type="text" size="20" name="JobTitle1" id="JobTitle1" title="Job Title">
+                    </li>
+                    <li>
+                        <label for="StartDate1">Start acara:</label>
+                        <input type="date" size="20" name="StartDate1" id="StartDate1" title="Start Date">
+                    </li>
+                    <li>
+                        <label for="EndDate1">End acara:</label>
+                        <input type="date" size="20" name="EndDate1" id="EndDate1" title="End Date">
+                    </li>
+                    <li>
+                        <label for="Responsibilities1">Run Down Acara :</label>
+                        <textarea name=" Responsibilities1" id="Responsibilities1" title="Responsibilities" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                    <li>
+                        <label for="ReasonForLeaving1">catatan:</label>
+                        <textarea name="ReasonForLeaving1" id="ReasonForLeaving1" title="Reason for Leaving" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>acara 3</legend>
+                <ol>
+                    <li>
+                        <label for="CompanyName1">nama acara:</label>
+                        <input type="text" size="20" name="CompanyName1" id="CompanyName1" title="Company Name">
+                    </li>
+                    <li>
+                        <label for="JobTitle1">Job Title:</label>
+                        <input type="text" size="20" name="JobTitle1" id="JobTitle1" title="Job Title">
+                    </li>
+                    <li>
+                        <label for="StartDate1">Start acara:</label>
+                        <input type="date" size="20" name="StartDate1" id="StartDate1" title="Start Date">
+                    </li>
+                    <li>
+                        <label for="EndDate1">End acara:</label>
+                        <input type="date" size="20" name="EndDate1" id="EndDate1" title="End Date">
+                    </li>
+                    <li>
+                        <label for="Responsibilities1">Run Down Acara :</label>
+                        <textarea name=" Responsibilities1" id="Responsibilities1" title="Responsibilities" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                    <li>
+                        <label for="ReasonForLeaving1">catatan:</label>
+                        <textarea name="ReasonForLeaving1" id="ReasonForLeaving1" title="Reason for Leaving" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <legend>acara 4</legend>
+                <ol>
+                    <li>
+                        <label for="CompanyName1">nama acara:</label>
+                        <input type="text" size="20" name="CompanyName1" id="CompanyName1" title="Company Name">
+                    </li>
+                    <li>
+                        <label for="JobTitle1">Job Title:</label>
+                        <input type="text" size="20" name="JobTitle1" id="JobTitle1" title="Job Title">
+                    </li>
+                    <li>
+                        <label for="StartDate1">Start acara:</label>
+                        <input type="date" size="20" name="StartDate1" id="StartDate1" title="Start Date">
+                    </li>
+                    <li>
+                        <label for="EndDate1">End acara:</label>
+                        <input type="date" size="20" name="EndDate1" id="EndDate1" title="End Date">
+                    </li>
+                    <li>
+                        <label for="Responsibilities1">Run Down Acara :</label>
+                        <textarea name=" Responsibilities1" id="Responsibilities1" title="Responsibilities" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                    <li>
+                        <label for="ReasonForLeaving1">catatan:</label>
+                        <textarea name="ReasonForLeaving1" id="ReasonForLeaving1" title="Reason for Leaving" cols="50"
+                            rows="3"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+
+        </fieldset>
+        <fieldset id="buttons">
+            <a href="#" class="btn" style="margin-bottom: 10px;">submit</a>
+        </fieldset>
+    </form>
+
+    <section class="footer">
+
+        <!--<div class="box-container">
+
+            <div class="box">
+                <h3>alamat</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> jalan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> kota </a>
+
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +62-8450-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +62-8227-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> umpotech@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> umpotech@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> ponorogo, indonesia </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>-->
+
+        <div class="credit"> created by <span>Admin UMPOTECH Oganizer</span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- theme toggler  -->
+
+    <!--<div class="theme-toggler">
+
+        <div class="toggle-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+            <div class="theme-btn" style="background: #3867d6;"></div>
+            <div class="theme-btn" style="background: #f7b731;"></div>
+            <div class="theme-btn" style="background: #ff0033;"></div>
+            <div class="theme-btn" style="background: #20bf6b;"></div>
+            <div class="theme-btn" style="background: #fa8231;"></div>
+            <div class="theme-btn" style="background: #FC427B;"></div>
+        </div>
+
+    </div>-->
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
